@@ -4,3 +4,7 @@ spring:
   cloud:
     config:
       fail-fast: true
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
