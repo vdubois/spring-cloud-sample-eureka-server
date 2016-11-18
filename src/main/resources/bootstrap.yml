@@ -4,6 +4,7 @@ spring:
   cloud:
     config:
       fail-fast: true
+      uri: http://config:8888
 eureka:
   client:
     register-with-eureka: false
